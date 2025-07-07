@@ -1,6 +1,12 @@
 # vector-search-quickstart
 Demonstrate https://www.mongodb.com/docs/atlas/atlas-vector-search/tutorials/vector-search-quick-start
 
+### Setup .env file
+Requires a MongoDB Atlas cluster URI and Voyage AI API Key
+```bash
+MONGODB_URI='mongodb+srv://<username>:<password>@<cluster-url>.mongodb.net/'
+VOYAGE_API_KEY='<API Key from dashboard.voyageai.com>'
+```
 
 ### Setup Python3 environment
 
