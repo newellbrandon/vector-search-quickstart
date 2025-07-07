@@ -17,7 +17,9 @@ pip install pip --upgrade
 pip install -r requirements.txt
 ```
 
-### Run demo
+## Run demos
+
+### Create Vector Index in MongoDB Atlas
 ```bash
 python3 vector-index.py
 # Expected output...
@@ -27,6 +29,7 @@ python3 vector-index.py
 # vector_index is ready for querying.
 ```
 
+### Run Vector Search query for the term "time travel"
 ```json
 python3 atlas-vector-search-quick-start.py
 # Expected output...
@@ -55,4 +58,11 @@ python3 atlas-vector-search-quick-start.py
   "title": "Crusade in Jeans",
   "score": 0.9228515625
 }
+```
+
+### Run example of Vector Embedding with Voyage AI
+```bash
+python3 vector-embedding.py
+# Expected output...
+[-0.009375211782753468, 0.07005840539932251, -0.014787266962230206, 0.07431986182928085, .....]
 ```
